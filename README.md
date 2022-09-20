@@ -79,6 +79,10 @@ or using subdomains. analytics.google.com shopping.google.com. Subdomains analyt
 34. Volume mounts for data, secret, config. Provisioner kubernetes/aws
 35. steteful servicesdeployed with stateful component. One master and 2 slaves, whenever master updates slaves update themselves.
 
-36. 4 main services: ClusterIP, Headless, NodePort, LoadBalancer. ClusterIP: Ingress: Selector: Service Endpoint
+36. 4 main services: ClusterIP, Headless, NodePort, LoadBalancer. ClusterIP: Ingress: Selector: Service Endpoint. Headless and ClusterIP goes in hand.
 
 37. Two container in the same pod. Second pod is mongo-exporter for prometheus. Name the second port accordingly. Headless pod-to-pod communication. Load Balancer for cloud native load balancer connections.
+
+38. External dockerhub: Nexus. EKS management: Kibana. Docker orhectration: Swarm/KNS. Monitoring: Nagios/Prometheus. Infrastructure provisioning: Terraform. Configuration management: Ansible
+
+![alt text](https://github.com/tanerjn/kube_demo/blob/master/blocks.png?raw=true)

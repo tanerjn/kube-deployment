@@ -25,7 +25,8 @@ spec:
             secretKeyRef:
               name: mongodb-secret
               key: mongo-root-username
-        - name: MONGO_INITDB_ROOT_PASSWORD
+        - name: ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+MONGO_INITDB_ROOT_PASSWORD
           valueFrom: 
             secretKeyRef:
               name: mongodb-secret
