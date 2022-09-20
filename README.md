@@ -85,4 +85,4 @@ or using subdomains. analytics.google.com shopping.google.com. Subdomains analyt
 
 38. External dockerhub: Nexus. EKS management: Kibana. Docker orhectration: Swarm/KNS. Monitoring: Nagios/Prometheus. Infrastructure provisioning: Terraform. Configuration management: Ansible
 
-![alt text](https://github.com/tanerjn/kube_demo/blob/master/blocks.png?raw=true)
+![alt text](https://github.com/tanerjn/kube_demo/blob/main/blocks.png?raw=true)
